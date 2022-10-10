@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    height: 69px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header img {
+    height: 50px;
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+nav li {
+    padding: 10px;
+}
+nav a {
+    color: seashell;
+}
+
+/* Main Styling */
+
+main {
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+}
+
+/* Mission Banner Styling */
+
+.banner {
+    height: 700px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.banner-text h2 {
+    line-height: 0px;
+}
+
+/* Recommendation Styling */
+
+.tea-featured {
+    text-align: center;
+}
+
+.call-outs {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.featured img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+.featured h4 {
+    margin: 0px;
+}
